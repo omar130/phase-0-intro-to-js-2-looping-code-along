@@ -1,22 +1,30 @@
 // Code your solutions in this file
 
-function writeCards(namesArray, eventName) {
-  let messagesArray = [];
-  for (let i = 0; i < namesArray.length; i++) {
-    messagesArray.push(`Thank you, ${namesArray[i]}, for the wonderful ${eventName} gift!`);
+const messsage = []
+
+const names = ["Guadalupe", "Ollie", "Aki"]
+
+function writeCards(names, suprise){
+
+  for(let i = 0; i < names.length; i++){
+    messsage.push(`Thank you, ${names[i]}, for the wonderful ${suprise} gift!`);
   }
-  return messagesArray;
+
+  return messsage
+
 }
 
 
 
-function countDown(number) {
-  while (number >= 0){
-    console.log(number);
-    number--;
+function countDown(num){
+
+  while (num >= 0 ){
+    console.log(num)
+    num--;
+
+
   }
+ 
+ 
 }
-
-
-
 
